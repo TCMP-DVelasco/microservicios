@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="usuario-service" />
+        <module name="eureka-service" />
         <module name="carro-service" />
         <module name="config-service" />
         <module name="moto-service" />
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="carro-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
       <module name="moto-service" options="-parameters" />
       <module name="usuario-service" options="-parameters" />
     </option>

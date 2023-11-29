@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          # default-label: config-server
+          default-label: eureka-server
           uri: https://github.com/TCMP-DVelasco/microservicios
           search-paths: config-data
   application:
