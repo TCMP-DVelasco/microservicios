@@ -8,3 +8,7 @@ spring:
     config:
       enable: true
       uri: http://localhost:8081
+
+logging:
+  level:
+    org.springframework: DEBUG
